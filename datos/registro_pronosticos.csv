@@ -1,0 +1,31 @@
+fecha_dato,Horizonte,Fecha objetivo,Modelo,precio_base,Retorno esperado (%),Precio esperado (USD)
+2026-10-23,1 semana,2026-10-30,Ingenuo (promedio),704.4,0.41,707.26
+2026-10-23,1 semana,2026-10-30,Regresión lineal,704.4,0.37,706.97
+2026-10-23,1 semana,2026-10-30,ARIMA,704.4,0.29,706.42
+2026-10-23,1 semana,2026-10-30,Random Forest,704.4,0.34,706.79
+2026-10-23,1 semana,2026-10-30,Gradient Boosting,704.4,0.21,705.87
+2026-10-23,3 meses,2027-01-23,Ingenuo (promedio),704.4,5.19,740.97
+2026-10-23,3 meses,2027-01-23,Regresión lineal,704.4,5.05,739.99
+2026-10-23,3 meses,2027-01-23,ARIMA,704.4,3.44,728.66
+2026-10-23,3 meses,2027-01-23,Random Forest,704.4,5.96,746.41
+2026-10-23,3 meses,2027-01-23,Gradient Boosting,704.4,8.31,762.94
+2026-10-23,12 meses,2027-10-23,Ingenuo (promedio),704.4,21.63,856.79
+2026-10-23,12 meses,2027-10-23,Regresión lineal,704.4,13.68,800.76
+2026-10-23,12 meses,2027-10-23,ARIMA,704.4,14.44,806.1
+2026-10-23,12 meses,2027-10-23,Random Forest,704.4,22.4,862.17
+2026-10-23,12 meses,2027-10-23,Gradient Boosting,704.4,28.63,906.09
+2026-10-30,1 semana,2026-11-06,Ingenuo (promedio),690.49,0.41,693.31
+2026-10-30,1 semana,2026-11-06,Regresión lineal,690.49,0.33,692.78
+2026-10-30,1 semana,2026-11-06,ARIMA,690.49,0.45,693.6
+2026-10-30,1 semana,2026-11-06,Random Forest,690.49,0.73,695.51
+2026-10-30,1 semana,2026-11-06,Gradient Boosting,690.49,0.11,691.23
+2026-10-30,3 meses,2027-01-30,Ingenuo (promedio),690.49,5.19,726.29
+2026-10-30,3 meses,2027-01-30,Regresión lineal,690.49,4.8,723.63
+2026-10-30,3 meses,2027-01-30,ARIMA,690.49,3.46,714.35
+2026-10-30,3 meses,2027-01-30,Random Forest,690.49,7.82,744.51
+2026-10-30,3 meses,2027-01-30,Gradient Boosting,690.49,7.76,744.09
+2026-10-30,12 meses,2027-10-30,Ingenuo (promedio),690.49,21.6,839.67
+2026-10-30,12 meses,2027-10-30,Regresión lineal,690.49,11.67,771.04
+2026-10-30,12 meses,2027-10-30,ARIMA,690.49,13.88,786.35
+2026-10-30,12 meses,2027-10-30,Random Forest,690.49,22.14,843.34
+2026-10-30,12 meses,2027-10-30,Gradient Boosting,690.49,23.45,852.43
