@@ -6,6 +6,8 @@ Análisis del ETF **QQQ** (Invesco QQQ Trust, que replica el índice Nasdaq-100)
 2. **Pronóstico con 5 modelos predictivos** (ingenuo, regresión lineal, ARIMA, Random Forest y Gradient Boosting) a 1 semana, 3 meses y 12 meses, y comparación entre ellos.
 3. **Cadena de suministro** y relación causa-efecto: por qué sube o baja la cotización.
 
+![Cadena de suministro de QQQ: del silicio al cliente final](informe/cadena_suministro_qqq.png)
+
 ## Cómo verlo
 
 **1. Leer el informe (sin instalar nada):** [informe/Informe_Analisis_QQQ.docx](informe/Informe_Analisis_QQQ.docx)
