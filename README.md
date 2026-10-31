@@ -10,9 +10,9 @@ Análisis del ETF **QQQ** (Invesco QQQ Trust, que replica el índice Nasdaq-100)
 
 ## Cómo verlo
 
-**1. Leer el informe (sin instalar nada):** [informe/Informe_Analisis_QQQ.docx](informe/Informe_Analisis_QQQ.docx)
+**1. Leer el informe:** [informe/Informe_Analisis_QQQ.docx](informe/Informe_Analisis_QQQ.docx)
 
-**2. Ejecutarlo en vivo (sin instalar nada):**
+**2. Ejecutarlo en vivo:**
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chaparroo/analisis-qqq-ingenieria-economica-/blob/master/analisis_QQQ.ipynb)
 
@@ -39,4 +39,3 @@ jupyter notebook analisis_QQQ.ipynb
 
 **Fuentes:** composición oficial de [Invesco](https://www.invesco.com/qqq-etf) (al 23 de octubre de 2026) y precios de Yahoo Finance (librería `yfinance`).
 
-> Trabajo académico. Los pronósticos son ejercicios estadísticos, no recomendaciones de inversión.
