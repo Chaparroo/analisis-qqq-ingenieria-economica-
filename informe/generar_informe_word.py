@@ -35,7 +35,7 @@ TITULO = "Análisis del ETF QQQ (Invesco QQQ Trust)"
 SUBTITULO = "Composición, pronóstico con modelos predictivos y cadena de suministro"
 CURSO = "Taller de Ingeniería Económica — 2026"
 AUTORES = ["Felipe López Chaparro"]
-REPOSITORIO = "https://github.com/felipesimplest/analisis-qqq-ingenieria-economica"
+REPOSITORIO = "https://github.com/Chaparroo/analisis-qqq-ingenieria-economica-"
 
 AZUL = RGBColor(0x2A, 0x78, 0xD6)
 TINTA = RGBColor(0x0B, 0x0B, 0x0B)
@@ -290,7 +290,7 @@ def agregar_markdown(doc, md):
                 i += 1
             agregar_tabla(doc, tabla_markdown(bloque), texto_en_linea=True)
         elif m := re.match(r"!\[[^\]]*\]\(([^)]+)\)", linea):
-            agregar_imagen(doc, str(PROYECTO / "imagenes" / Path(m.group(1)).name))  # la URL apunta a la copia local
+            agregar_imagen(doc, str(PROYECTO / "informe" / Path(m.group(1)).name))  # la URL apunta a la copia local
             i += 1
         elif m := re.match(r"(#{1,4})\s+(.*)", linea):
             nivel = len(m.group(1))

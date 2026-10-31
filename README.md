@@ -12,7 +12,7 @@ Análisis del ETF **QQQ** (Invesco QQQ Trust, que replica el índice Nasdaq-100)
 
 **2. Ejecutarlo en vivo (sin instalar nada):**
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/felipesimplest/analisis-qqq-ingenieria-economica/blob/main/analisis_QQQ.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chaparroo/analisis-qqq-ingenieria-economica-/blob/master/analisis_QQQ.ipynb)
 
 Clic en el botón y luego **Entorno de ejecución → Ejecutar todas**. La primera celda descarga los datos de este repositorio sola.
 
@@ -31,11 +31,9 @@ jupyter notebook analisis_QQQ.ipynb
 |---|---|
 | `analisis_QQQ.ipynb` | **Notebook principal** con todo el análisis. |
 | `informe/Informe_Analisis_QQQ.docx` | El análisis en Word. |
+| `informe/cadena_suministro_qqq.png` | Diagrama de la cadena de suministro. |
+| `informe/generar_informe_word.py` | Vuelve a crear el Word desde el notebook: `python informe/generar_informe_word.py`. |
 | `datos/` | Composición oficial de Invesco, sectores de cada empresa y registro de pronósticos. |
-| `imagenes/` | Diagrama de la cadena de suministro. |
-| `diagrama_cadena_suministro.py` | Dibuja el diagrama de la cadena de suministro. |
-| `generar_informe_word.py` | Vuelve a crear el Word desde el notebook: `python generar_informe_word.py`. |
-| `anexo_filtro_ETFs.ipynb` | Exploración inicial con ~200 ETFs y acciones que sirvió para elegir QQQ. |
 
 **Fuentes:** composición oficial de [Invesco](https://www.invesco.com/qqq-etf) (al 23 de octubre de 2026) y precios de Yahoo Finance (librería `yfinance`).
 
